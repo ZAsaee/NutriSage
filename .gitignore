@@ -1,0 +1,19 @@
+﻿# --- Python ---
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- CDK / CloudFormation ---
+cdk.out/
+
+# --- Data / notebooks ---
+data/
+*.parquet
+*.csv
+*.ipynb_checkpoints/
+
+# --- OS / Editor ---
+.DS_Store
+.idea/
+.vscode/
